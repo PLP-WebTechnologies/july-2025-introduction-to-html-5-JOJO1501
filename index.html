@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstrative homepage using semantic HTML5 with accessibility and SEO">
+    <meta name="keywords" content="HTML5, accessibility, SEO, web development">
+    <meta name="author" content="Jean">
+    <title>Home - My HTML5 Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This page demonstrates the use of semantic HTML5 tags to create an accessible web structure optimized for SEO.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <article>
+                <h3>Our Mission</h3>
+                <p>We are committed to creating accessible and well-structured websites that meet modern web development standards.</p>
+            </article>
+        </section>
+
+        <section id="services" aria-labelledby="services-title">
+            <h2 id="services-title">Our Services</h2>
+            <ul>
+                <li>HTML5 Web Development</li>
+                <li>SEO Optimization</li>
+                <li>Web Accessibility</li>
+                <li>Development Consulting</li>
+            </ul>
+        </section>
+
+        <aside aria-label="Additional information">
+            <h3>Did you know?</h3>
+            <p>HTML5 semantic tags improve the accessibility and SEO of your website.</p>
+            
+            <article>
+                <h4>Tip of the day</h4>
+                <p>Always use headings in hierarchical order (h1, h2, h3...) for better accessibility.</p>
+                <p><strong>Date:</strong> <time datetime="2025-08-05">August 5, 2025</time></p>
+            </article>
+        </aside>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                <p>Email: <a href="mailto:akajeanpierrejoseph@gmail.com">akajeanpierrejoseph@gmail.com</a></p>
+                <p>Phone: <a href="tel:+2250767265571">+225 0767265571</a></p>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <nav aria-label="Secondary navigation">
+            <ul>
+                <li><a href="#legal-notice">Legal Notice</a></li>
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
